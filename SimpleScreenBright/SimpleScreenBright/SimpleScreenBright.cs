@@ -222,6 +222,10 @@ namespace SimpleScreenBright
                     }
                 }
             }
+            else
+            {
+                sndr.Text = string.Empty; // No text allowed
+            }
         }
 
         private void saveProfileToolStripMenuItem_Click(object sender, EventArgs e)
@@ -240,6 +244,7 @@ namespace SimpleScreenBright
                     {
                         CurrentSettings = GetAllBrightNessSettings();
                         GenericHelper.WriteToBinaryFileStream(stream, CurrentSettings);
+                        Success saved = new Success("Brightness settings were successfully saved to profile \"" + Path.GetFileName(saveFileDialog.FileName) + "\" for " + CurrentSettings.Count().ToString() + " monitor(s).");
                     }
                 }
                 catch (Exception E)
@@ -290,6 +295,8 @@ namespace SimpleScreenBright
                                 }
                             }
                         }
+
+                        Success saved = new Success("Brightness profile \"" + Path.GetFileName(openFileDialog.FileName) + "\" was successfully loaded and applied for " + CurrentSettings.Count().ToString() + " monitor(s).");
                     }
                     catch(Exception E)
                     {

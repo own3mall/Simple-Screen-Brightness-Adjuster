@@ -6,3 +6,4 @@ f:\my documents\visual studio 2010\Projects\SimpleScreenBright\SimpleScreenBrigh
 f:\my documents\visual studio 2010\Projects\SimpleScreenBright\SimpleScreenBright\obj\x86\Debug\SimpleScreenBright.exe
 f:\my documents\visual studio 2010\Projects\SimpleScreenBright\SimpleScreenBright\obj\x86\Debug\SimpleScreenBright.pdb
 f:\My Documents\Visual Studio 2010\Projects\SimpleScreenBright\SimpleScreenBright\obj\x86\Debug\SimpleScreenBright.csprojResolveAssemblyReference.cache
+f:\My Documents\Visual Studio 2010\Projects\SimpleScreenBright\SimpleScreenBright\obj\x86\Debug\SimpleScreenBright.success.resources
